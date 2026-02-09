@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.background-color {
+    background-color: #0D6CAC;
+}
+
+.nav .left img {
+    padding: 10px 20px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .centre {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.centre a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #E8F2F8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav .right {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav .centre .menu a:nth-child(7) {
+    border: 2px solid white;
+    width: 126px;
+    height: 41px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.nav .centre .right img:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+}
+
+.nav .centre a:hover {
+    cursor: pointer;
+    color: #FFCB00;
+}
+
+.nav .centre .menu a:nth-child(7):hover {
+    background-color: #FFCB00;
+    color: #0D6CAC;
+    border-color: #FFCB00;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.nav .centre .menu a.active {
+    color: #FFCB00;
+    /* yellow highlight */
+    border-bottom: 3px solid #FFCB00;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+
+.nav .centre .menu a.active {
+    color: #FFCB00;
+    /* yellow highlight */
+    border-bottom: 3px solid #FFCB00;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+
+
+/* ####################################################### */
+/* Hero-Section */
+.hero-section {
+    width: 100%;
+    height: 441px;
+    background-image: url(../../assets/herosection.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.hero-section p:first-child {
+    margin-bottom: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #ECECEC;
+}
+
+/* ####################################################### */
+/* Content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    text-align: center;
+    width: 60%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    color: #E8F2F8;
+}
+
+/* ####################################################### */
+/* box */
+.box {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* sirf inputs ke beech gap */
+    background-color: #0D6CAC;
+    /* aapka given bg */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.box .abc,
+.box textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    transition: all 0.3s ease;
+    resize: none;
+    background: #fff;
+}
+
+.box .abc:focus,
+.box textarea:focus {
+    border-color: #FFCB00;
+    box-shadow: 0 0 8px rgba(255, 203, 0, 0.8);
+}
+
+.send-btn {
+    background: linear-gradient(135deg, #FFCB00, #FFD633);
+    color: #0D6CAC;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.35s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-self: center;
+}
+
+.send-btn:hover {
+    background: linear-gradient(135deg, #FFD633, #FFCB00);
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px) scale(1.05);
+}
+
+.send-btn:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ####################################################### */
+/* Footer */
+.footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #FFFFFF, #EAF6FF);
+
+}
+
+.footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer .left p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0D6CAC;
+}
+
+.footer .middle {
+    margin-left: 130px;
+}
+
+.footer .middle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .middle ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D6CAC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer .middle ul li a:hover {
+    color: #084B80;
+}
+
+.footer .middle ul li a.support-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.footer .middle ul li a.support-btn:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .middle p:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer .middle p:last-child:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .right p:first-child {
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #0D6CAC;
+}
+
+.footer .right .image {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.footer .right .image img:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.footer .right p:last-child {
+    color: #0D6CAC;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+
+/* ==================== RESPONSIVE STYLES ==================== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .nav .centre {
+        gap: 20px;
+    }
+
+    .centre a {
+        font-size: 18px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 48px;
+    }
+
+    .content p {
+        width: 70%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav .centre {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 80px 0;
+        gap: 60px;
+        background-size: cover;
+    }
+
+    .hero-section p:first-child {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .content p {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .box {
+        max-width: 80%;
+        padding: 25px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .footer .middle {
+        margin-left: 0;
+    }
+
+    .footer .middle ul {
+        align-items: center;
+    }
+
+    /* Fix for support button width */
+    .footer .middle ul li a.support-btn {
+        width: 122px;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .nav .centre .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav .centre .menu a {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .content p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .box {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    /* Fix for support button in navigation */
+    .nav .centre .menu a:nth-child(7) {
+        width: auto;
+        padding: 5px 15px;
+    }
+
+    .footer .right .image {
+        justify-content: center;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .nav .left img {
+        width: 100px;
+    }
+
+    .nav .centre .menu a {
+        font-size: 14px;
+    }
+
+    .nav .right img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .content p {
+        width: 95%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .box {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .box .abc,
+    .box textarea {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .send-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 16px;
+    }
+
+    .footer .right p:first-child {
+        font-size: 24px;
+    }
+
+    /* Fix for support button in footer */
+    .footer .middle ul li a.support-btn {
+        width: 110px;
+        height: 36px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+    .footer .left img {
+        width: 150px;
+    }
+}
+
+/* Very small devices (less than 400px) */
+@media (max-width: 399.98px) {
+    .nav .left img {
+        width: 80px;
+    }
+
+    .nav .centre .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nav .centre .menu a {
+        margin: 2px 0;
+        font-size: 13px;
+    }
+
+    .nav .right {
+        gap: 5px;
+    }
+
+    .nav .right img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+        gap: 30px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Fix for support button in navigation on very small screens */
+    .nav .centre .menu a:nth-child(7) {
+        width: 100px;
+        padding: 4px 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .content p {
+        width: 98%;
+        font-size: 14px;
+    }
+
+    .box {
+        max-width: 98%;
+        padding: 12px;
+    }
+
+    .footer .left img {
+        width: 120px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 14px;
+    }
+
+    .footer .right p:first-child {
+        font-size: 20px;
+    }
+
+    .footer .right p:last-child {
+        font-size: 14px;
+    }
+
+    .footer .right .image img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Extreme small devices (300px and below) */
+@media (max-width: 300px) {
+    .nav .left img {
+        width: 70px;
+    }
+
+    .nav .centre .menu a {
+        font-size: 12px;
+    }
+
+    .nav .right img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .box .abc,
+    .box textarea {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .send-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .footer .left img {
+        width: 100px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 13px;
+    }
+
+    .footer .right p:first-child {
+        font-size: 18px;
+    }
+
+    .footer .right p:last-child {
+        font-size: 13px;
+    }
+
+    .footer .right .image img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Fix for support button in footer on very small screens */
+    .footer .middle ul li a.support-btn {
+        width: 100px;
+        height: 32px;
+        font-size: 14px;
+    }
+}
+
+/* Prevent horizontal scrolling */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}

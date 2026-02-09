@@ -1,0 +1,161 @@
+/* ==================== CONTACT FORM STYLES ==================== */
+
+/* Error Messages */
+.error-message {
+    color: #ff4444;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Input Error State */
+.input-error {
+    border: 2px solid #ff4444 !important;
+    box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.1) !important;
+}
+
+.abc.input-error,
+textarea.input-error {
+    animation: shake 0.3s ease;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-10px);
+    }
+
+    75% {
+        transform: translateX(10px);
+    }
+}
+
+/* Success Message */
+.success-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: linear-gradient(135deg, #0D6CAC, #0a5a8f);
+    color: white;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.success-message.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.success-message i {
+    font-size: 50px;
+    color: #FFCB00;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.success-message p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Submit Button Shake */
+.send-btn.shake {
+    animation: shake 0.5s ease;
+}
+
+/* Enhanced Input Focus States */
+.abc:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #FFCB00;
+    box-shadow: 0 0 0 3px rgba(255, 203, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Input Valid State (optional) */
+.abc.valid,
+textarea.valid {
+    border: 2px solid #4CAF50;
+}
+
+/* Loading State for Submit Button */
+.send-btn.loading {
+    position: relative;
+    color: transparent;
+    pointer-events: none;
+}
+
+.send-btn.loading::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 3px solid #0D6CAC;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .success-message {
+        padding: 20px 30px;
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .success-message i {
+        font-size: 40px;
+    }
+
+    .success-message p {
+        font-size: 16px;
+    }
+
+    .error-message {
+        font-size: 12px;
+    }
+}
+
+/* Accessibility - High Contrast Mode */
+@media (prefers-contrast: high) {
+    .error-message {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .input-error {
+        border-width: 3px !important;
+    }
+}

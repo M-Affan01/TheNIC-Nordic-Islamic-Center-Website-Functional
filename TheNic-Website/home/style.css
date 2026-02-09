@@ -1,0 +1,1132 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* navigation bar */
+.nav .left img {
+    padding: 10px 20px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D6CAC;
+}
+
+.nav .centre {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.centre a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #E8F2F8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav .right {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav .centre .menu a:nth-child(7) {
+    border: 2px solid white;
+    width: 126px;
+    height: 41px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.nav .centre .right img:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+}
+
+.nav .centre a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.nav .centre .menu a:nth-child(7):hover {
+    background-color: #FFCB00;
+    color: #0D6CAC;
+    border-color: #FFCB00;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.nav .centre .menu a.active {
+    color: #FFCB00;
+    /* yellow highlight */
+    border-bottom: 3px solid #FFCB00;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+
+/* ####################################################### */
+
+
+/* Hero-Section */
+.hero-section {
+    width: 100%;
+    height: 982px;
+    background-color: #0D6CAC;
+    background-image: url(../assets/herosection.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.common1 {
+    cursor: text;
+}
+
+.hero-section .upper p {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #E8F2F8;
+}
+
+.hero-section .middle p:nth-child(1) {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFCB00;
+    text-align: center;
+}
+
+.hero-section .middle p:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ECECEC;
+    margin-top: 40px;
+}
+
+.hero-section .lower p {
+    margin: auto;
+    width: 63%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #E8F2F8;
+}
+
+/* ####################################################### */
+
+/* Facebook-feeds */
+.facebook-feeds {
+    width: 100%;
+    height: 559px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E8F2F8;
+
+}
+
+.facebook-feeds .left-side {
+    width: 334px;
+    height: 380px;
+    border: 2px solid #FFCB00;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.facebook-feeds .left-side .upper p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #0D6CAC;
+    padding: 10px;
+}
+
+.facebook-feeds .left-side .upper p:first-child {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.facebook-feeds .left-side .upper img {
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.facebook-feeds .left-side .upper p:nth-child(3) {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1px;
+}
+
+.facebook-feeds .left-side .lower {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.common2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #0D6CAC;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.facebook-feeds .left-side .lower .left {
+    margin-left: 10px;
+}
+
+.facebook-feeds .left-side .lower .right {
+    margin-right: 10px;
+}
+
+.facebook-feeds .facebook-pics p {
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #0D6CAC;
+    margin-bottom: 10px;
+}
+
+.facebook-feeds .facebook-pics .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facebook-feeds .facebook-pics .box1 {
+    width: 256px;
+    height: 310px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.facebook-feeds .facebook-pics .box1:hover,
+.box2:hover {
+    transform: translateY(-4px);
+    /* thoda upar uth jaye */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+.facebook-feeds .facebook-pics .box2 {
+    width: 256px;
+    height: 310px;
+    transition: all 0.3s ease-in-out;
+}
+
+.facebook-feeds .facebook-pics .boxes .fb-icon i {
+    font-size: 30px;
+    color: #1877f2;
+    display: inline-block;
+    animation: bounce 1.5s infinite;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+/* #############################################################################  */
+/* Our Mission */
+.our-mission {
+    max-width: 100%;
+    height: 739px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D6CAC;
+}
+
+.our-mission .left {
+    margin-left: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 150px;
+    cursor: text;
+
+}
+
+.our-mission .left .upper p:first-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 48px;
+    color: #E8F2F8;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.our-mission .left .upper p:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #E8F2F8;
+}
+
+.our-mission .left .lower p:first-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 38px;
+    color: #E8F2F8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.our-mission .left .lower p:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFCB00;
+    text-align: center;
+    cursor: text;
+}
+
+.our-mission .left .btn p {
+    width: 190px;
+    height: 52px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0D6CAC;
+    background-color: #FFCB00;
+}
+
+.our-mission .left .btn p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.our-mission .right p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #E8F2F8;
+}
+
+/* #############################################################################  */
+/* Quick-verse */
+.quick-verse {
+    max-width: 100%;
+    color: #E8F2F8;
+}
+
+.quick-verse .centre {
+    width: 100%;
+    height: 300px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0D6CAC;
+    gap: 20px;
+}
+
+.quick-verse .centre .upper p:nth-child(2) {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 47px;
+    margin-top: 10px;
+}
+
+.quick-verse .centre .upper p:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 20px;
+}
+
+.quick-verse .centre .middle p {
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.quick-verse .centre .lower p {
+    margin: auto;
+    width: 75%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+/* #############################################################################  */
+/* Hadith of the Day */
+.hadith {
+    max-width: 100%;
+}
+
+.hadith .centre {
+    width: 100%;
+    height: 300px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0D6CAC;
+    gap: 20px;
+}
+
+.hadith .centre .upper p:nth-child(2) {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 47px;
+    margin-top: 10px;
+    cursor: text;
+
+}
+
+.hadith .centre .lower p {
+    margin: auto;
+    width: 83%;
+    cursor: text;
+
+
+}
+
+/* #############################################################################  */
+/* Gallery */
+.gallery {
+    max-width: 100%;
+}
+
+.gallery .upper p {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    cursor: text;
+    color: #0D6CAC;
+}
+
+.gallery .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* #############################################################################  */
+/* Location */
+.location {
+    max-width: 100%;
+    background-color: #0D6CAC;
+    height: 95vh;
+}
+
+.location .upper p {
+    color: #E8F2F8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: text;
+}
+
+.location .lower {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* #############################################################################  */
+/* Footer */
+
+.footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #FFFFFF, #EAF6FF);
+
+}
+
+.footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer .left p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0D6CAC;
+}
+
+.footer .middle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .middle ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D6CAC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer .middle ul li a:hover {
+    color: #084B80;
+}
+
+.footer .middle ul li a.support-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.footer .middle ul li a.support-btn:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .middle p:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer .middle p:last-child:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .right p:first-child {
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #0D6CAC;
+}
+
+.footer .right .image {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.footer .right .image img:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.footer .right p:last-child {
+    color: #0D6CAC;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+
+
+/* ==================== RESPONSIVE STYLES ==================== */
+
+/* Global responsive base */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-section .middle p:nth-child(1) {
+        font-size: 54px;
+    }
+
+    .hero-section .middle p:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .centre a {
+        font-size: 18px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 18px;
+    }
+
+    .our-mission .right img {
+        max-width: 500px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav .centre {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .nav .centre .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 80px 20px;
+        gap: 50px;
+    }
+
+    .hero-section .middle p:nth-child(1) {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+    .hero-section .middle p:nth-child(2) {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .hero-section .lower p {
+        width: 85%;
+    }
+
+    .facebook-feeds {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .facebook-feeds .left-side {
+        margin: 0 auto;
+    }
+
+    .our-mission {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .our-mission .left {
+        width: 90%;
+        margin: 0 auto 50px;
+    }
+
+    .our-mission .right {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .our-mission .right img {
+        max-width: 100%;
+    }
+
+    .quick-verse .centre,
+    .hadith .centre {
+        padding: 40px 20px;
+    }
+
+    .gallery .image {
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .location {
+        padding: 0 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .footer .middle ul {
+        align-items: center;
+    }
+
+    .footer .middle ul li a.support-btn {
+        width: 122px;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .nav .left img {
+        width: 140px;
+    }
+
+    .nav .centre .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .nav .centre .menu a {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .nav .centre .right {
+        margin-right: 0;
+    }
+
+    .hero-section {
+        padding: 60px 15px;
+        gap: 40px;
+    }
+
+    .hero-section .middle p:nth-child(1) {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .hero-section .middle p:nth-child(2) {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .hero-section .upper p {
+        font-size: 26px;
+    }
+
+    .hero-section .lower p {
+        width: 95%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .facebook-feeds .left-side {
+        width: 300px;
+        height: 360px;
+    }
+
+    .facebook-feeds .facebook-pics .boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .facebook-feeds .facebook-pics .box1,
+    .facebook-feeds .facebook-pics .box2 {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .our-mission .left {
+        width: 95%;
+    }
+
+    .our-mission .left .upper p:first-child {
+        font-size: 30px;
+    }
+
+    .our-mission .left .upper p:nth-child(2),
+    .our-mission .left .lower p:nth-child(2) {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .our-mission .left .lower p:first-child {
+        font-size: 24px;
+    }
+
+    .quick-verse .centre .upper p:nth-child(2),
+    .hadith .centre .upper p:nth-child(2) {
+        font-size: 28px;
+    }
+
+    .quick-verse .centre .lower p,
+    .hadith .centre .lower p {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .gallery .upper p {
+        font-size: 30px;
+    }
+
+    .gallery .image img {
+        width: calc(50% - 5px);
+    }
+
+    .location .lower iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .location .upper p {
+        font-size: 30px;
+    }
+
+    .nav .centre .menu a:nth-child(7) {
+        width: auto;
+        padding: 5px 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .nav .left img {
+        width: 110px;
+    }
+
+    .nav .centre .menu a {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .nav .right img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+        gap: 35px;
+    }
+
+    .hero-section .middle p:nth-child(1) {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .hero-section .middle p:nth-child(2) {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+
+    .hero-section .upper p {
+        font-size: 22px;
+    }
+
+    .hero-section .lower p {
+        width: 98%;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .facebook-feeds {
+        padding: 30px 10px;
+    }
+
+    .facebook-feeds .left-side {
+        width: 280px;
+        height: 340px;
+    }
+
+    .common2 {
+        font-size: 17px;
+    }
+
+    .facebook-feeds .facebook-pics p {
+        font-size: 24px;
+    }
+
+    .facebook-feeds .facebook-pics .box1,
+    .facebook-feeds .facebook-pics .box2 {
+        max-width: 280px;
+    }
+
+    .our-mission {
+        padding: 40px 10px;
+    }
+
+    .our-mission .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .our-mission .left .upper p:first-child {
+        font-size: 26px;
+    }
+
+    .our-mission .left .upper p:nth-child(2) {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .our-mission .left .lower p:first-child {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .our-mission .left .lower p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .our-mission .left .btn p {
+        width: 170px;
+        height: 48px;
+        font-size: 13px;
+    }
+
+    .our-mission .right p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .quick-verse .centre,
+    .hadith .centre {
+        padding: 30px 10px;
+    }
+
+    .quick-verse .centre .upper p:nth-child(2),
+    .hadith .centre .upper p:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .quick-verse .centre .upper p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .quick-verse .centre .middle p,
+    .hadith .centre .lower p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .quick-verse .centre .lower p {
+        width: 98%;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .gallery .upper p {
+        font-size: 26px;
+    }
+
+    .gallery .image {
+        padding: 0 5px;
+    }
+
+    .gallery .image img {
+        width: 100%;
+    }
+
+    .location {
+        padding: 0 10px;
+    }
+
+    .location .upper p {
+        font-size: 26px;
+    }
+
+    .location .lower iframe {
+        height: 250px;
+    }
+
+    .footer {
+        padding: 30px 10px;
+        gap: 30px;
+    }
+
+    .footer .left img {
+        max-width: 120px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 16px;
+    }
+
+    .footer .middle ul li a.support-btn {
+        width: 110px;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .footer .right p:first-child {
+        font-size: 24px;
+    }
+
+    .footer .right p:last-child {
+        font-size: 14px;
+    }
+}
+
+/* Mobile navigation for very small screens */
+@media (max-width: 400px) {
+    .nav .left img {
+        width: 90px;
+    }
+
+    .nav .centre .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav .centre .menu a {
+        margin: 3px 0;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav .right img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero-section {
+        padding: 40px 8px;
+        gap: 30px;
+    }
+
+    .hero-section .middle p:nth-child(1) {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero-section .middle p:nth-child(2) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .facebook-feeds .left-side {
+        width: 260px;
+        height: 320px;
+    }
+
+    .nav .centre .menu a:nth-child(7) {
+        width: 100%;
+        text-align: center;
+        padding: 8px 15px;
+    }
+}

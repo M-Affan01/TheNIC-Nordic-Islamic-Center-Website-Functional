@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* navigation bar */
+.nav .left img {
+    padding: 10px 20px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D6CAC;
+}
+
+.nav .centre {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.centre a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #E8F2F8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav .right {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav .centre .menu a:nth-child(7) {
+    border: 2px solid white;
+    width: 126px;
+    height: 41px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.nav .centre .right img:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+}
+
+.nav .centre a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.nav .centre .menu a:nth-child(7):hover {
+    background-color: #FFCB00;
+    color: #0D6CAC;
+    border-color: #FFCB00;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+/* ####################################################### */
+/* Hero-Section */
+.hero-section {
+    width: 100%;
+    height: 441px;
+    background-color: #0D6CAC;
+    background-image: url(../../assets/herosection.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.hero-section p:first-child {
+    margin-bottom: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #ECECEC;
+}
+
+/* ####################################################### */
+/* Content */
+.content1 {
+    max-width: 100%;
+    height: 469px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0D6CAC;
+}
+
+.content1 .left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content1 .left p:first-child {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content1 .left p:last-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content1 .right {
+    margin-top: 70px;
+}
+
+
+
+.content2 {
+    max-width: 100%;
+    height: 469px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0D6CAC;
+}
+
+.content2 .right2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content2 .right2 p:first-child {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content2 .right2 p:last-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content2 .left2 {
+    margin-top: 70px;
+}
+
+
+.content3 {
+    max-width: 100%;
+    height: 469px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0D6CAC;
+}
+
+.content3 .left3 {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+}
+
+.content3 .left3 p:first-child {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content3 .left p:nth-child(1),
+p:nth-child(2),
+p:nth-child(3),
+p:nth-child(4),
+p:nth-child(5),
+p:last-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #E8F2F8;
+    cursor: text;
+}
+
+.content3 .left p:nth-child(2),
+p:nth-child(3),
+p:nth-child(4),
+p:nth-child(5),
+p:last-child {
+    margin-left: 40px;
+}
+
+.content3 .right3 {
+    margin-top: 70px;
+}
+
+/* ####################################################### */
+/* Facilities */
+
+.facilities {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0D6CAC;
+}
+
+.facilities .right {
+    margin-right: 50px;
+}
+
+.facilities .right p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    color: #E8F2F8;
+    margin-left: 40px;
+}
+
+.nav .centre .menu a.active {
+    color: #FFCB00;
+    /* yellow highlight */
+    border-bottom: 3px solid #FFCB00;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+
+/* ####################################################### */
+/* Footer */
+.footer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #FFFFFF, #EAF6FF);
+
+}
+
+.footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer .left p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0D6CAC;
+}
+
+.footer .middle {
+    margin-left: 130px;
+}
+
+.footer .middle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .middle ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D6CAC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer .middle ul li a:hover {
+    color: #084B80;
+}
+
+.footer .middle ul li a.support-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.footer .middle ul li a.support-btn:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .middle p:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: #0D6CAC;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer .middle p:last-child:hover {
+    background-color: #084B80;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .right p:first-child {
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #0D6CAC;
+}
+
+.footer .right .image {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.footer .right .image img:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.footer .right p:last-child {
+    color: #0D6CAC;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+
+
+
+/* ==================== RESPONSIVE STYLES ==================== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .nav .centre {
+        gap: 20px;
+    }
+
+    .centre a {
+        font-size: 18px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 48px;
+    }
+
+    .content1,
+    .content2,
+    .content3 {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .content1 .left,
+    .content2 .right2 {
+        width: 40%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav .centre {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 80px 0;
+        gap: 60px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .content1,
+    .content2,
+    .content3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .content1 .left,
+    .content2 .right2,
+    .content3 .left3 {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .content1 .right,
+    .content2 .left2,
+    .content3 .right3 {
+        margin-top: 0;
+    }
+
+    .content3 .left p:nth-child(2),
+    .content3 .left p:nth-child(3),
+    .content3 .left p:nth-child(4),
+    .content3 .left p:nth-child(5),
+    .content3 .left p:last-child {
+        margin-left: 0;
+    }
+
+    .facilities {
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    .facilities .right {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .footer .middle {
+        margin-left: 0;
+    }
+
+    .footer .middle ul {
+        align-items: center;
+    }
+
+    /* Fix for support button width */
+    .footer .middle ul li a.support-btn {
+        width: 122px;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .nav .centre .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav .centre .menu a {
+        margin: 5px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .content1 .left,
+    .content2 .right2,
+    .content3 .left3 {
+        width: 90%;
+    }
+
+    .content1 .left p:first-child,
+    .content2 .right2 p:first-child,
+    .content3 .left3 p:first-child,
+    .facilities .right p {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    /* Fix for support button in navigation */
+    .nav .centre .menu a:nth-child(7) {
+        width: auto;
+        padding: 5px 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .nav .left img {
+        width: 120px;
+    }
+
+    .nav .centre .menu a {
+        font-size: 16px;
+    }
+
+    .nav .right img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .hero-section p:first-child {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .content1 .left p:first-child,
+    .content2 .right2 p:first-child,
+    .content3 .left3 p:first-child,
+    .facilities .right p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .content1 .left p:last-child,
+    .content2 .right2 p:last-child,
+    .content3 .left3 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .footer .middle ul li a {
+        font-size: 18px;
+    }
+
+    .footer .right p:first-child {
+        font-size: 26px;
+    }
+
+    /* Fix for support button in footer */
+    .footer .middle ul li a.support-btn {
+        width: 122px;
+        margin: 10px auto;
+    }
+}
+
+/* Mobile navigation for very small screens */
+@media (max-width: 400px) {
+    .nav .centre .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav .centre .menu a {
+        margin: 3px 0;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+        gap: 40px;
+    }
+
+    /* Fix for support button in navigation on very small screens */
+    .nav .centre .menu a:nth-child(7) {
+        width: 122px;
+        text-align: center;
+    }
+
+    .footer .right .image {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
