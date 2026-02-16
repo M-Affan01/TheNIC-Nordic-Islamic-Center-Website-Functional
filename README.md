@@ -1,4 +1,4 @@
-# 🕌 Norrbottens Islamiska Center (NIC) Website
+# Norrbottens Islamiska Center (NIC) Website
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 </div>
 
 
-## 📖 Overview
+## Overview
 
 > **Note**: This is a **practice/learning project** created to demonstrate web development skills. It is inspired by the Norrbottens Islamiska Center but is not an official website.
 
@@ -22,7 +22,7 @@ The **Norrbottens Islamiska Center (NIC)** website concept serves as a digital h
 
 Built with modern web technologies and a focus on accessibility, the website provides an elegant, user-friendly interface that reflects the values and mission of an Islamic Center while serving the practical needs of the community. This project showcases skills in **responsive design**, **modern CSS**, **semantic HTML**, and **user experience design**.
 
-### 🎯 Project Context & Learning Objectives
+### Project Context & Learning Objectives
 
 This practice project demonstrates the ability to create a complete, professional website for a real-world use case. The concept is based on an Islamic community center, showcasing:
 
@@ -36,39 +36,39 @@ This practice project demonstrates the ability to create a complete, professiona
 
 ---
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 This project showcases proficiency in:
 
-- ✅ **HTML5** - Semantic markup, accessibility, SEO best practices
-- ✅ **CSS3** - Flexbox, responsive design, animations, custom properties
-- ✅ **JavaScript (ES6+)** - Interactive features, API integration, DOM manipulation
-- ✅ **Responsive Design** - Mobile-first approach, media queries, fluid layouts
-- ✅ **UI/UX Design** - Color theory, typography, visual hierarchy, user flows
-- ✅ **Web Performance** - Optimized assets, efficient CSS, fast load times
-- ✅ **API Integration** - RESTful APIs (Aladhan Prayer Times API)
-- ✅ **Cross-Browser Compatibility** - Testing across multiple browsers
-- ✅ **Version Control** - Git workflow and GitHub best practices
-- ✅ **Documentation** - Professional README and code organization
+- **HTML5** - Semantic markup, accessibility, SEO best practices
+- **CSS3** - Flexbox, responsive design, animations, custom properties
+- **JavaScript (ES6+)** - Interactive features, API integration, DOM manipulation
+- **Responsive Design** - Mobile-first approach, media queries, fluid layouts
+- **UI/UX Design** - Color theory, typography, visual hierarchy, user flows
+- **Web Performance** - Optimized assets, efficient CSS, fast load times
+- **API Integration** - RESTful APIs (Aladhan Prayer Times API)
+- **Cross-Browser Compatibility** - Testing across multiple browsers
+- **Version Control** - Git workflow and GitHub best practices
+- **Documentation** - Professional README and code organization
 
 ---
 
-## ✨ Features
+## Features
 
-### 🏛️ Core Functionality
+### Core Functionality
 
-- **📿 Prayer Timings Display**
+- **Prayer Timings Display**
   - Real-time prayer schedules for Luleå
   - Fajr, Zuhar, Asar, Maghrib, Isha, and Jummah timings
   - Beautiful visual presentation with Islamic motifs
 
-- **📱 Fully Responsive Design**
+- **Fully Responsive Design**
   - Mobile-first approach
   - Optimized for tablets, phones, and desktops
   - Fluid layouts and adaptive images
   - Touch-friendly navigation
 
-- **🌐 Multi-Page Architecture**
+- **Multi-Page Architecture**
   - Home page with hero section
   - About NIC - Mission and vision
   - The Masjid - Construction project details
@@ -76,7 +76,7 @@ This project showcases proficiency in:
   - Team - Community leadership
   - Contact Us - Communication channels
 
-### 🎨 Advanced UI/UX Features
+### Advanced UI/UX Features
 
 - **Modern Design Aesthetics**
   - Clean, professional color scheme (#0D6CAC blue, #FFCB00 gold, #E8F2F8 light)
@@ -102,7 +102,7 @@ This project showcases proficiency in:
   - Embedded Google Maps location
   - Social media integration (Facebook, Instagram, YouTube)
 
-### 🔧 Technical Features
+### Technical Features
 
 - **JavaScript Functionality**
   - **Native JS Architecture**: Fully refactored to remove jQuery dependency for better performance
@@ -133,7 +133,7 @@ This project showcases proficiency in:
 
 ---
 
-## 🏗️ Architecture & Design
+## Architecture & Design
 
 ### Project Structure
 
@@ -259,7 +259,7 @@ Default styles
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Category | Technology | Version | Purpose |
 |----------|-----------|---------|---------|
@@ -288,7 +288,7 @@ Default styles
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -349,7 +349,7 @@ Using VS Code Live Server:
 
 ---
 
-## 📱 Usage Guide
+## Usage Guide
 
 ### For Visitors
 
@@ -424,7 +424,7 @@ Using VS Code Live Server:
 
 ---
 
-## 🎨 Development Setup
+## Development Setup
 
 ### Recommended Tools
 
@@ -471,25 +471,25 @@ Using VS Code Live Server:
 
 ---
 
-## ⚡ Performance & Optimization
+## Performance & Optimization
 
 ### Current Optimizations
 
-✅ **Vanilla CSS** - No framework overhead, faster load times  
-✅ **Optimized Images** - Compressed PNG assets  
-✅ **Minimal Dependencies** - Only essential external resources  
-✅ **Efficient Selectors** - Clean, performant CSS  
-✅ **Responsive Images** - Adaptive sizing for different screens  
+**Vanilla CSS** - No framework overhead, faster load times  
+**Optimized Images** - Compressed PNG assets  
+**Minimal Dependencies** - Only essential external resources  
+**Efficient Selectors** - Clean, performant CSS  
+**Responsive Images** - Adaptive sizing for different screens  
 
 ### Performance Metrics
 
 | Metric | Target | Current Status |
 |--------|--------|----------------|
-| First Contentful Paint | < 1.5s | ✅ Optimized |
-| Time to Interactive | < 3.0s | ✅ Optimized |
-| Total Page Size | < 2MB | ✅ ~1.5MB |
-| CSS File Size | < 50KB | ✅ ~23KB |
-| Image Optimization | 80%+ | ✅ Compressed |
+| First Contentful Paint | < 1.5s | Optimized |
+| Time to Interactive | < 3.0s | Optimized |
+| Total Page Size | < 2MB | ~1.5MB |
+| CSS File Size | < 50KB | ~23KB |
+| Image Optimization | 80%+ | Compressed |
 
 ### Future Optimization Opportunities
 
@@ -503,7 +503,7 @@ Using VS Code Live Server:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! Whether you're fixing bugs, improving documentation, or proposing new features, your help is appreciated.
 
@@ -550,17 +550,17 @@ We welcome contributions from the community! Whether you're fixing bugs, improvi
 
 ### Areas for Contribution
 
-- 🌐 **Translations**: Add Swedish language support
-- 📱 **Mobile UX**: Enhance mobile experience
-- ♿ **Accessibility**: Improve WCAG compliance
-- 🎨 **Design**: Refine visual elements
-- 🐛 **Bug Fixes**: Report and fix issues
-- 📚 **Documentation**: Improve guides and comments
-- ⚡ **Performance**: Optimize load times
+- **Translations**: Add Swedish language support
+- **Mobile UX**: Enhance mobile experience
+- **Accessibility**: Improve WCAG compliance
+- **Design**: Refine visual elements
+- **Bug Fixes**: Report and fix issues
+- **Documentation**: Improve guides and comments
+- **Performance**: Optimize load times
 
 ---
 
-## 🗺️ Roadmap & Future Plans
+## Roadmap & Future Plans
 
 ### Phase 1: Core Enhancements (Q2 2026)
 - [ ] Dynamic prayer time API integration
@@ -588,7 +588,7 @@ We welcome contributions from the community! Whether you're fixing bugs, improvi
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see below for details:
 
@@ -618,7 +618,7 @@ SOFTWARE.
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 ### Get in Touch
 
@@ -647,7 +647,7 @@ For technical inquiries or collaboration:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Community Leaders**: For guidance and vision
 - **Design Inspiration**: Modern Islamic web design principles
@@ -657,7 +657,7 @@ For technical inquiries or collaboration:
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Islamic Resources
 - [Quran.com](https://quran.com) - Online Quran with translations
@@ -684,6 +684,6 @@ For technical inquiries or collaboration:
 
 © 2026 Muhammad Affan | Practice/Portfolio Project
 
-[⬆ Back to Top](#-norrbottens-islamiska-center-nic-website)
+
 
 
